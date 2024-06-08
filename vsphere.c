@@ -5,8 +5,12 @@
 #include <math.h>
 
 int main(void) {
-    float r = 10.0;
+    
+    float r;
 
+    printf("enter the radius of the sphere (in meters): ");
+    scanf("%f", &r);
+    
     float volume = (4.0f / 3.0f) * M_PI * (r * r * r);
 
     printf("volume of sphere is: %.2f\n", volume);
