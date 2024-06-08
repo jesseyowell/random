@@ -2,7 +2,6 @@
 
 int main(void) {
 
-    printf("One man's constant is another man's variable.\n");
+    printf("hello, world.\n");
 
-    return 0;
 }
